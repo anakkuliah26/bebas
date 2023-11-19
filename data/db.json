@@ -1,0 +1,21 @@
+{
+  "mahasiswa": [
+    {
+      "id": 1,
+      "nama": "Syaiful",
+      "nim": "21/474778/SV/19033",
+      "kelas": "A",
+      "icon": "coffee",
+      "color": "#FF000"
+    },
+    {
+      "nama": "Ipul",
+      "nim": "21/474778/SV/19033",
+      "kelas": "B",
+      "icon": "user",
+      "color": "#FF000",
+      "id": 2,
+      "jeniskelamin": "Lakik "
+    }
+  ]
+}
