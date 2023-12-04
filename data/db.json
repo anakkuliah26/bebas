@@ -6,7 +6,8 @@
       "nim": "21/474778/SV/19033",
       "kelas": "A",
       "icon": "coffee",
-      "color": "#FF000"
+      "color": "#FF000",
+      "jeniskelamin": "L"
     },
     {
       "nama": "Ipul",
@@ -16,6 +17,15 @@
       "color": "#FF000",
       "id": 2,
       "jeniskelamin": "Lakik "
+    },
+    {
+      "nama": "M. Syaiful",
+      "nim": "123456",
+      "kelas": "A",
+      "jeniskelamin": "Lakik",
+      "color": "#777",
+      "icon": "user-edit",
+      "id": 3
     }
   ]
 }
