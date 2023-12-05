@@ -1,79 +1,31 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Aplikasi Lokasi Asrama Mahasiswa
 
-# Getting Started
+Aplikasi ini merupakan aplikasi yang aplikasi ini merupakan sebuah aplikasi yang menampilkan lokasi asrama yang ada di daerah kota Yogyakarta dan sekitarnya. Aplikasi ini bertujuan untuk membantu mahasiswa yang kesusahan dalam menemukan tempat tinggal
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Komponen Pembangun Produk
 
-## Step 1: Start the Metro Server
+Aplikasi ini dibuat dengan menggunakan berbagai alat yaitu :
+1. React Native
+2. HTML
+3. Leaflet.js
+4. Google Sheets
+5. App Scripts
+6. Font Awesome
+7. Github Pages
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Sumber Data
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Data yang digunakan berasal dari data lokasi asrama mahasiswa di Google Maps. Data ditambahkan secara manual ke dalam database.
 
-```bash
-# using npm
-npm start
+## Tangkapan Layar Komponen Penting Produk
 
-# OR using Yarn
-yarn start
-```
+![image](https://github.com/anakkuliah26/bebas/assets/142763788/5ee226f1-b343-46e9-b7f6-2392df6dacfc)
+![image](https://github.com/anakkuliah26/bebas/assets/142763788/65565b2f-cb55-4852-acb7-5dc74ee1f0a4)
+![image](https://github.com/anakkuliah26/bebas/assets/142763788/18d82788-328b-412b-8420-63dc147875b4)
+![image](https://github.com/anakkuliah26/bebas/assets/142763788/00899cc3-9b67-43d9-9948-bd39ef67fc53)
+![image](https://github.com/anakkuliah26/bebas/assets/142763788/2723c91c-fcc6-47e8-bd24-b859b93f46cf)
 
-## Step 2: Start your Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-### For Android
 
-```bash
-# using npm
-npm run android
 
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
