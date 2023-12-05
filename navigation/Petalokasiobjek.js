@@ -1,6 +1,6 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import { Text, View, StyleSheet, AppState } from 'react-native';
+import { Text, View, StyleSheet, AppState, ImageBackground } from 'react-native';
 import React from 'react';
 import Getjsonfile from '../Getjsonfile';
 import Fontawesome5 from 'react-native-vector-icons/FontAwesome5';
@@ -38,8 +38,16 @@ const petaweb = 'https://anakkuliah26.github.io/pgpbl-12/map.html'
 // }
 function HomeScreen() {
     return (
-        <View>
-        <Text style={style.title}>APLIKASI PETA LOKASI OBJEK</Text>
+      <View> 
+        <ImageBackground
+      source={require('../4873152.jpg')}
+      style={{
+        height: '100%',
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>  
+        <Text style={style.title}>APLIKASI PETA LOKASI ASRAMA</Text>
         <Text style={style.text}> Aplikasi ini merupakan sebuah aplikasi yang menampilkan lokasi asrama yang ada di daerah 
           kota Yogyakarta dan sekitarnya. Aplikasi ini bertujuan untuk membantu mahasiswa yang kesusahan dalam menemukan tempat tinggal</Text>
         <View style={style.container}>
@@ -52,7 +60,9 @@ function HomeScreen() {
             <Text>6. Font Awesome</Text>
             <Text>7. Github Pages</Text>
         </View>
+        </ImageBackground> 
         </View>
+        
     )
 }
 function MapScreen() {
@@ -94,12 +104,12 @@ function MyTabs() {
       headerShown: false,
       tabBarStyle: {
         position: 'absolute',
-        bottom: 25,
+        bottom: 20,
         left: 15,
         right: 15,
         borderRadius: 20,
         height: 65,
-        backgroundColor: '#007260',
+        backgroundColor: '#0766AD',
       },
       tabBarShowLabel: false,
     }}>
@@ -150,10 +160,10 @@ function MyTabs() {
         // tabBarLabel: 'Home',
         tabBarIcon: ({ focused, size }) => (
           <View style={{
-            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#007260',
+            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#0766AD',
             width: 55, height: 55, borderRadius: 30 }}>
-            <Fontawesome5 name="home" size={size} style={{color: focused? '#007260' : '#fff'}}/>
-            <Text style={{color: focused? '#007260' : '#fff', fontSize: 10}}>Home</Text>
+            <Fontawesome5 name="home" size={size} style={{color: focused? '#0766AD' : '#fff'}}/>
+            <Text style={{color: focused? '#0766AD' : '#fff', fontSize: 10}}>Home</Text>
             </View>
         ),
       }} />
@@ -162,10 +172,10 @@ function MyTabs() {
         // tabBarLabel: 'Map',
         tabBarIcon: ({ focused, size }) => (
           <View style={{
-            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#007260',
+            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#0766AD',
             width: 55, height: 55, borderRadius: 30 }}>
-            <Fontawesome5 name="map" size={size} style={{color: focused? '#007260' : '#fff'}}/>
-            <Text style={{color: focused? '#007260' : '#fff', fontSize: 10}}>Map</Text>
+            <Fontawesome5 name="map" size={size} style={{color: focused? '#0766AD' : '#fff'}}/>
+            <Text style={{color: focused? '#0766AD' : '#fff', fontSize: 10}}>Map</Text>
             </View>
         ),
       }} />
@@ -174,10 +184,10 @@ function MyTabs() {
         // tabBarLabel: 'Add Data',
         tabBarIcon: ({ focused, size }) => (
           <View style={{
-            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#007260',
+            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#0766AD',
             width: 55, height: 55, borderRadius: 30 }}>
-            <Fontawesome5 name="plus-circle" size={size} style={{color: focused? '#007260' : '#fff'}}/>
-            <Text style={{color: focused? '#007260' : '#fff', fontSize: 10}}>Add Data</Text>
+            <Fontawesome5 name="plus-circle" size={size} style={{color: focused? '#0766AD' : '#fff'}}/>
+            <Text style={{color: focused? '#0766AD' : '#fff', fontSize: 10}}>Add Data</Text>
             </View>
         ),
       }} />
@@ -186,10 +196,10 @@ function MyTabs() {
         tabBarLabel: 'List Data',
         tabBarIcon: ({ focused, size }) => (
           <View style={{
-            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#007260',
+            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#0766AD',
             width: 55, height: 55, borderRadius: 30 }}>
-            <Fontawesome5 name="th-list" size={size} style={{color: focused? '#007260' : '#fff'}}/>
-            <Text style={{color: focused? '#007260' : '#fff', fontSize: 10}}>List Data</Text>
+            <Fontawesome5 name="th-list" size={size} style={{color: focused? '#0766AD' : '#fff'}}/>
+            <Text style={{color: focused? '#0766AD' : '#fff', fontSize: 10}}>List Data</Text>
             </View>
         ),
       }} />
@@ -198,10 +208,10 @@ function MyTabs() {
         // tabBarLabel: 'Portofolio',
         tabBarIcon: ({ focused, size }) => (
           <View style={{
-            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#007260',
+            alignItems: 'center', justifyContent: 'center', backgroundColor: focused? '#fff' : '#0766AD',
             width: 55, height: 55, borderRadius: 30 }}>
-            <Fontawesome5 name="user" size={size} style={{color: focused? '#007260' : '#fff'}}/>
-            <Text style={{color: focused? '#007260' : '#fff', fontSize: 10}}>About</Text>
+            <Fontawesome5 name="user" size={size} style={{color: focused? '#0766AD' : '#fff'}}/>
+            <Text style={{color: focused? '#0766AD' : '#fff', fontSize: 10}}>About</Text>
             </View>
         ),
       }} />

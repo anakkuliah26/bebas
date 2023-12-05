@@ -56,9 +56,9 @@ const Callapi = () => {
             </View>
             <View>
               <Text style={styles.cardtitle}>{item.nama}</Text>
-              <Text>Deskripsi : {item.deskripsi}</Text>
-              <Text>Jenis: {item.jenis}</Text>
-              <Text>Alamat : {item.alamat}</Text>
+              <Text style={{fontSize:11}}>Deskripsi : {item.deskripsi}</Text>
+              <Text style={{fontSize:11}}>Jenis: {item.jenis}</Text>
+              <Text style={{fontSize:11}}>Alamat : {item.alamat}</Text>
             </View>
           </View>
        )}
